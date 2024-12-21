@@ -1,0 +1,64 @@
+* {
+    background-color: #111200;
+    color: #fff;
+    font-family: 'Trebuchet MS', sans-serif
+} 
+
+#header {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #383a00;
+}
+
+#header #hero-header {
+    color: #fff069;
+    font-size: 2.5em;
+}
+
+#header #hero-paragraph {
+    margin-top: -20px;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+#main-section {
+    padding: 50px 50px;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    width: 40%;
+}
+
+legend {
+    padding: 0 20px;
+    text-align: center;
+}
+
+td {
+    padding: 15px 10px;
+}
+
+input {
+    width: 180px;
+    border: 1px solid #fff;
+    font-size: 1.1em;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #383a00;
+}
