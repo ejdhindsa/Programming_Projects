@@ -1,5 +1,5 @@
 * {
-    background-color: #111200;
+    background-color: #181714;
     color: #fff;
     font-family: 'Trebuchet MS', sans-serif
 } 
@@ -50,6 +50,18 @@ input {
     width: 180px;
     border: 1px solid #fff;
     font-size: 1.1em;
+}
+
+input#submit {
+    padding: 5px 10px;
+    font-size: 1em;
+    transition: 0.5s;
+}
+
+input#submit:hover {
+    border-radius: 5px;
+    color: #181714;
+    background-color: #fff;
 }
 
 #footer {
